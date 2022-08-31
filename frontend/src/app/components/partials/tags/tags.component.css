@@ -1,0 +1,16 @@
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+div a {
+  background-color: #e7e7e7;
+  margin: 0.2rem 0.15rem;
+  border-radius: 10rem;
+  font-weight: 300;
+  color: blue;
+}
+div a:hover {
+    background-color: #ff6666;
+    color: #f4f4f4;
+}
