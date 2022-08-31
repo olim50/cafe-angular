@@ -62,16 +62,15 @@
      3. Add html (ng g c components/partials/title)
      4. Add css
 9. Not Found!
-
-    Generate Component
-    Add ts
-    Add html
-    Add css
-    Add To Pages
-    Home Page
-    Food Page
-    Cart Page
-    Connect To Backend
+  1. Generate Component (ng g c components/partials/not-found)
+    1. Add ts
+    2. Add html
+    3. Add css
+  2. Add To Pages
+    1. Home Page
+    2. Food Page
+    3. Cart Page
+10. Connect To Backend
 
     Create backend folder
     npm init
