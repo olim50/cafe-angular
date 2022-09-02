@@ -19,7 +19,7 @@ resetLinkText="Back to Homepage">
         [totalstars]="5"
         checkedcolor="red"
         uncheckedcolor="black"
-        size="25px"
+        size="20px"
         [readonly]="true">
         </star-rating>
     </div> 
@@ -39,7 +39,7 @@ resetLinkText="Back to Homepage">
     </div>
 
   <div class="price">
-    <span> {{food.price | currency}}
+    <span> {{food.price | currency:'tjs ':'symbol-narrow':''}}
     </span>
   </div>
 

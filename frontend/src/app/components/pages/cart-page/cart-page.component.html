@@ -26,15 +26,10 @@ resetLinkText="Go to Homepage">
   <option>3</option>
   <option>4</option>
   <option>5</option>
-  <option>6</option>
-  <option>7</option>
-  <option>8</option>
-  <option>9</option>
-  <option>10</option>
 </select>
 </div>
 <div>
-  {{cartItem.price | currency }}
+  {{cartItem.price}}
 </div>
 
 <div>
@@ -48,7 +43,7 @@ Remove
 <div class="checkout">
 <div>
   <div class="foods-count">{{cart.totalCount}}</div>
-  <div class="total-price">{{cart.totalPrice|currency}}</div>
+  <div class="total-price">{{cart.totalPrice|currency:'сомони&nbsp;':'symbol-narrow':'.0'}}</div>
 </div>
 
 <a routerLink="/checkout">

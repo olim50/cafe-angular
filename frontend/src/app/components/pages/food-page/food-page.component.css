@@ -22,9 +22,8 @@ img {
   flex-direction: column;
   flex: 1 0;
   border: 3rem;
-  padding: 2rem;
+  padding: 1rem;
   color: black;
-  margin-left: 0.1rem;
 }
 .header {
   display: flex;
@@ -49,7 +48,7 @@ img {
 .origins span {
   padding: 0.5rem;
   font-size: 0.8rem;
-  margin: 0.5rem 0.5rem 0.5rem 0;
+  margin: 0.5rem 0.8rem 0.5rem 0;
   border-radius: 2rem;
   background-color: aliceblue;
 }
@@ -76,13 +75,13 @@ div a:hover {
   font-size: 1rem;
 }
 .price {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   margin: 0.2rem 0.55rem;
-  color: green;
+  color: rgb(7, 192, 7);
 }
 .price::before {
-  content: "price: ";
-  color: darkgrey;
+  content: "сомони : ";
+  color: rgb(7, 192, 7);
   font-size: 1rem;
 }
 button {

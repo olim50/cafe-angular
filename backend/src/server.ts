@@ -1,4 +1,4 @@
-import express  from "express";
+import express from "express";
 import cors from "cors";
 import { sample_foods, sample_tags } from "./data";
 
@@ -8,14 +8,15 @@ app.use(cors({
   origin:["http://localhost:4200"]
 }))
 
-app.get("/api/foods", (req,res) => {
+app.get("/api/foods", (req, res) => {
   res.send(sample_foods)
 })
 
 app.get("/api/foods/search/:searchTerm", (req, res) => {
   const searchTerm = req.params.searchTerm
   const foods = sample_foods
-  .filter(food => food.name.toLowerCase().includes(searchTerm.toLowerCase()))
+  .filter(food => food.name.toLowerCase()
+  .includes(searchTerm.toLowerCase()))
   res.send(foods)
 })
 
